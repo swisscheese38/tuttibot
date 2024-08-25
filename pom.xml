@@ -5,6 +5,7 @@
   <groupId>ch.swisscheese38</groupId>
   <artifactId>tuttibot</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
   <dependencies>
     <dependency>
       <groupId>org.jsoup</groupId>
@@ -16,7 +17,13 @@
         <artifactId>slf4j-simple</artifactId>
         <version>2.0.16</version>
     </dependency>
+    <!--dependency>
+        <groupId>org.apache.httpcomponents.client5</groupId>
+        <artifactId>httpclient5-fluent</artifactId>
+        <version>5.3.1</version>
+    </dependency-->
   </dependencies>
+  
   <build>
     <plugins>
         <plugin>
